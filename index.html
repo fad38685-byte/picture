@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="Discover The Lexury: thoughtful stays, exceptional dining, and a little more room to unwind. Find your stay and make a reservation.">
+  <title>The Lexury — A Stay to Savour</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The Lexury home">
+      <span class="brand-name">The Lexury</span>
+      <span class="brand-caption">HOTEL &amp; RESTAURANT</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation">
+      <span></span><span></span>
+    </button>
+    <nav class="navigation" id="site-navigation" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#service">Service</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#dining">Dining</a>
+      <a href="#find-us">Find us (map)</a>
+      <a href="#about-us">About us</a>
+      <a class="nav-book" href="#book">Book your stay <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="A warmly lit luxury hotel suite opening onto a quiet courtyard"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span></span> YOUR OWN KIND OF GETAWAY</p>
+        <h1 id="hero-title">Stay a little<br>longer <em>in the</em><br><em>moment.</em></h1>
+        <p class="hero-description">Considered comfort, beautiful food, and the kind of welcome that makes you feel right at home.</p>
+        <a class="text-link hero-link" href="#service">Discover The Lexury <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-note"><span>01</span> A PLACE TO ARRIVE, UNWIND &amp; FEEL AT HOME</div>
+      <a class="scroll-cue" href="#service" aria-label="Scroll to discover"><span></span></a>
+    </section>
+
+    <section class="intro section-pad reveal" id="about-us">
+      <div class="intro-label eyebrow"><span class="section-number">01</span> MORE THAN A ROOM</div>
+      <div class="intro-copy">
+        <h2>A slower pace.<br><em>A warmer welcome.</em></h2>
+        <div class="intro-bottom">
+          <p>Some places just have a way of making you exhale. Find yours in carefully made spaces, unhurried mornings, and the little details that make a stay your own.</p>
+          <a class="text-link" href="#experience">A little about us <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="intro-mark" aria-hidden="true">L.</div>
+    </section>
+
+    <section class="services section-pad reveal" id="service" aria-labelledby="services-title">
+      <div class="services-heading">
+        <div>
+          <div class="eyebrow"><span class="section-number">01</span> STAY, SIP &amp; SAVOUR</div>
+          <h2 id="services-title">A little something <em>for everyone.</em></h2>
+        </div>
+        <p>Come for the comfort, settle in for a good meal, and linger a little longer at the café.</p>
+      </div>
+      <div class="services-grid">
+        <a class="service-card" href="#stay-gallery">
+          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A calm, thoughtfully furnished hotel room" loading="lazy">
+          <span class="service-number">01 / REST</span>
+          <span class="service-caption"><span><strong>Rooms</strong><small>Make yourself at home.</small></span><span class="service-arrow" aria-hidden="true">↗</span></span>
+        </a>
+        <a class="service-card" href="#gallery">
+          <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Freshly prepared food served at The Lexury" loading="lazy">
+          <span class="service-number">02 / SAVOUR</span>
+          <span class="service-caption"><span><strong>Food</strong><small>Made with care, served with love.</small></span><span class="service-arrow" aria-hidden="true">↗</span></span>
+        </a>
+        <a class="service-card" href="#dining">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A welcoming café with warm light and inviting tables" loading="lazy">
+          <span class="service-number">03 / LINGER</span>
+          <span class="service-caption"><span><strong>Café</strong><small>Your favourite place to pause.</small></span><span class="service-arrow" aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="stay-feature reveal" aria-label="The Lexury guest rooms">
+      <div class="feature-image feature-image-room" role="img" aria-label="A calm, sunlit bedroom with natural textures"></div>
+      <div class="feature-caption"><span>01 / THE ROOMS</span><span>Room to truly unwind.</span></div>
+      <div class="feature-aside">REST EASY&nbsp; · &nbsp;WAKE SLOW</div>
+    </section>
+
+    <section class="stay-gallery section-pad reveal" id="stay-gallery" aria-labelledby="stay-gallery-title">
+      <div class="stay-gallery-heading">
+        <div class="eyebrow"><span class="section-number">02</span> AROUND THE LEXURY</div>
+        <h2 id="stay-gallery-title">A little more <em>room to wander.</em></h2>
+      </div>
+      <div class="stay-gallery-grid" aria-label="Swipe horizontally to browse all three hotel photos">
+        <figure class="stay-photo stay-photo-large">
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="A peaceful hotel courtyard and pool surrounded by greenery" loading="lazy">
+          <figcaption><span>01 / THE GROUNDS</span><span>Find your quiet corner.</span></figcaption>
+        </figure>
+        <figure class="stay-photo">
+          <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="An inviting hotel suite ready for a restful stay" loading="lazy">
+          <figcaption><span>02 / THE SUITES</span><span>Made for slowing down.</span></figcaption>
+        </figure>
+        <figure class="stay-photo">
+          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A welcoming hotel exterior framed by palm trees and gardens" loading="lazy">
+          <figcaption><span>03 / THE WELCOME</span><span>Arrive and exhale.</span></figcaption>
+        </figure>
+      </div>
+      <p class="gallery-swipe-hint" aria-hidden="true"><span>SWIPE TO EXPLORE</span><span>← &nbsp; →</span></p>
+    </section>
+
+    <section class="dining section-pad reveal" id="dining">
+      <div class="dining-image image-hover" role="img" aria-label="An intimate restaurant set for dinner, lit by candlelight"></div>
+      <div class="dining-copy">
+        <div class="eyebrow"><span class="section-number">02</span> PULL UP A CHAIR</div>
+        <h2>Good things<br>happen <em>around</em><br><em>the table.</em></h2>
+        <p>Come for a long lunch, stay for one more glass. Thoughtful cooking, something lovely to drink, and absolutely no rush to leave.</p>
+        <a class="button button-outline" href="mailto:hello@thelexury.com?subject=Restaurant%20reservation">Ask about a table <span aria-hidden="true">↗</span></a>
+        <span class="dining-footnote">A FAVOURITE TABLE IS WAITING.</span>
+      </div>
+    </section>
+
+    <section class="food-gallery section-pad reveal" id="gallery" aria-labelledby="food-title">
+      <div class="food-gallery-heading">
+        <div>
+          <div class="eyebrow"><span class="section-number">01</span> FRESH FROM OUR KITCHEN</div>
+          <h2 id="food-title">A feast for <em>the eyes.</em></h2>
+        </div>
+        <p>Seasonal ingredients, lovingly made, and always worth slowing down for.</p>
+      </div>
+      <div class="food-grid">
+        <article class="food-card food-card-tall">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A vibrant, freshly prepared garden salad" loading="lazy">
+          <span class="food-index">01 / FROM THE GARDEN</span>
+          <div class="food-card-caption"><h3>Fresh, bright, beautiful.</h3><span>✳</span></div>
+        </article>
+        <article class="food-card">
+          <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A thoughtfully plated chef-prepared dinner" loading="lazy">
+          <span class="food-index">02 / MADE WITH CARE</span>
+          <div class="food-card-caption"><h3>Something to savour.</h3><span>✳</span></div>
+        </article>
+        <article class="food-card food-card-tall">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A colorful sharing plate made with fresh ingredients" loading="lazy">
+          <span class="food-index">03 / GATHER AROUND</span>
+          <div class="food-card-caption"><h3>Better when shared.</h3><span>✳</span></div>
+        </article>
+      </div>
+      <a class="text-link food-link" href="#book">Save me a seat <span aria-hidden="true">↗</span></a>
+    </section>
+
+  
+
+    <section class="location section-pad reveal" id="find-us">
+      <div class="location-copy">
+        <div class="eyebrow"><span class="section-number">03</span> FIND YOUR WAY HERE</div>
+        <h2>Just the right<br>place <em>to land.</em></h2>
+        <p>Getting here is part of getting away. Find us on the map and start dreaming up the rest.</p>
+        <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=The+Lexury+Hotel+and+Restaurant" target="_blank" rel="noreferrer">Search The Lexury in Google Maps <span aria-hidden="true">↗</span></a>
+        <span class="location-note">MAP SEARCHES FOR THE LEXURY BY NAME.</span>
+      </div>
+      <div class="map-frame">
+        <iframe title="Google Maps search for The Lexury hotel and restaurant" src="https://maps.google.com/maps?q=The%20Lexury%20Hotel%20and%20Restaurant&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <span class="map-label"><span></span> THE LEXURY</span>
+      </div>
+    </section>
+
+    
+
+    <section class="booking-section section-pad reveal" id="book" aria-labelledby="booking-title">
+      <div class="booking-intro">
+        <div class="eyebrow"><span class="section-number">04</span> LET'S MAKE A PLAN</div>
+        <h2 id="booking-title">Your next<br>favourite <em>stay.</em></h2>
+        <p>Tell us a little about your visit. Send your enquiry straight to our team on WhatsApp or Telegram and we'll be in touch.</p>
+        <div class="booking-contact">
+          <span class="eyebrow">PREFER A QUICK HELLO?</span>
+          <a href="https://wa.me/2510900368205" target="_blank" rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+          <a href="https://t.me/jabaone" target="_blank" rel="noreferrer">Telegram <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <form class="booking-form" id="booking-form">
+        <div class="booking-heading">
+          <span class="eyebrow">YOUR STAY ENQUIRY</span>
+          <span class="booking-step">A FEW LITTLE DETAILS</span>
+        </div>
+        <div class="booking-fields">
+          <label class="booking-field" for="guest-name">
+            <span>YOUR NAME</span>
+            <input id="guest-name" name="guestName" type="text" placeholder="First and last name" autocomplete="name" required>
+          </label>
+          <label class="booking-field" for="guest-email">
+            <span>EMAIL ADDRESS</span>
+            <input id="guest-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+          </label>
+          <label class="booking-field" for="check-in">
+            <span>CHECK IN</span>
+            <input id="check-in" name="checkIn" type="date" required>
+          </label>
+          <label class="booking-field" for="check-out">
+            <span>CHECK OUT</span>
+            <input id="check-out" name="checkOut" type="date" required>
+          </label>
+          <label class="booking-field" for="guests">
+            <span>GUESTS</span>
+            <select id="guests" name="guests">
+              <option value="1">1 guest</option>
+              <option value="2" selected>2 guests</option>
+              <option value="3">3 guests</option>
+              <option value="4">4 guests</option>
+              <option value="5">5 guests</option>
+              <option value="6">6 guests</option>
+            </select>
+          </label>
+          <label class="booking-field booking-field-wide" for="guest-message">
+            <span>A NOTE FOR US <span class="optional-label">OPTIONAL</span></span>
+            <textarea id="guest-message" name="message" rows="3" placeholder="A room preference, a special occasion, a question..."></textarea>
+          </label>
+        </div>
+        <p class="booking-message" id="booking-message" role="status" aria-live="polite"></p>
+        <p class="booking-disclaimer">Your enquiry opens a message addressed to The Lexury. Your booking is confirmed by our team, not automatically.</p>
+        <div class="booking-actions">
+          <button class="button button-whatsapp" type="submit" name="channel" value="whatsapp">
+            <span class="channel-dot" aria-hidden="true"></span> Send enquiry on WhatsApp <span aria-hidden="true">↗</span>
+          </button>
+          <button class="button button-telegram" type="submit" name="channel" value="telegram">
+            <span class="channel-dot" aria-hidden="true"></span> Send enquiry on Telegram <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-name">The Lexury</span>
+      <span class="brand-caption">HOTEL &amp; RESTAURANT</span>
+    </a>
+    <p>Good stays. Good food. Good feelings.</p>
+    <div class="footer-socials" aria-label="Social media links">
+      <a href="https://wa.me/2510900368205" target="_blank" rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+      <a href="https://t.me/jabaone" target="_blank" rel="noreferrer">Telegram <span aria-hidden="true">↗</span></a>
+    </div>
+    <span class="footer-copy">© <span id="year"></span> THE LEXURY</span>
+  </footer>
+</body>
+</html>
